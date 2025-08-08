@@ -1,0 +1,44 @@
+[2025-08-07 12:20:42,903] Start Pheasy.
+ *******  **      ** ********     **      ******** **    **
+/**////**/**     /**/**/////     ****    **////// //**  ** 
+/**   /**/**     /**/**         **//**  /**        //****  
+/******* /**********/*******   **  //** /*********  //**   
+/**////  /**//////**/**////   **********////////**   /**   
+/**      /**     /**/**      /**//////**       /**   /**   
+/**      /**     /**/********/**     /** ********    /**   
+//       //      // //////// //      // ////////     //   0.0.2
+[2025-08-07 12:20:42,912] System: Cu4O2
+[2025-08-07 12:20:42,912] Space group: Pn-3m (224), 48 symmetry operations found.
+[2025-08-07 12:20:42,912] Read 3 x 3 x 3 supercell from file (162 atoms).
+[2025-08-07 12:20:42,924] Reading and generating cluster space from file, up to 3-order.
+[2025-08-07 12:20:43,747] Cutoff distance (A) for 2-order IFCs: inf
+[2025-08-07 12:20:43,747] Cutoff distance (A) for 3-order IFCs: 5.00
+[2025-08-07 12:20:43,747] Summary of cluster space:
+[2025-08-07 12:20:43,747] - HARM    | cluster number: 33  | IFC number: 297
+[2025-08-07 12:20:43,747] - ANHARM3 | cluster number: 34  | IFC number: 918
+[2025-08-07 12:20:43,747] Reconstructing null space of symmetry constraints from file.
+[2025-08-07 12:20:43,752] Summary of IFCs:
+[2025-08-07 12:20:43,752] - HARM    | IFC number: 297   | Free IFC number: 125
+[2025-08-07 12:20:43,752] - ANHARM3 | IFC number: 918   | Free IFC number: 347
+[2025-08-07 12:20:43,752] Total number of free IFCs: 472
+1. I READ NDATA AS: 4
+[2025-08-07 12:20:43,752] Reconstructing sensing (displacement) matrix from file.
+[2025-08-07 12:20:43,834] Starting to fit interatomic force constants.
+[2025-08-07 12:20:43,843] Reading interatomic forces, 4 configurations.
+[2025-08-07 12:20:43,846] Fix second-order IFCs during fitting.
+[2025-08-07 12:20:43,849] Reading second-order IFCs from fc.hdf5.
+[2025-08-07 12:20:44,098] Fitting force constants via the coordinate descent LASSO.
+[2025-08-07 12:20:46,998] Summary of force constants fitting:
+[2025-08-07 12:20:46,998] - Reaching the specified tolerance for the optimal alpha after 78 iterations.
+[2025-08-07 12:20:46,998] - alpha_min: 1e-6
+[2025-08-07 12:20:46,998] - alpha_max: 1e-2
+[2025-08-07 12:20:46,998] - alpha_opt: 1.757510624854793e-06
+[2025-08-07 12:20:46,998] - RMSE_CV: 0.04692914331266097 eV/A
+[2025-08-07 12:20:46,998] - RMSE: 0.04151498823644099 eV/A
+[2025-08-07 12:20:46,998] - Relative error: 0.20707749786800608
+[2025-08-07 12:20:46,998] - Rank of coefficient matrix: 347
+[2025-08-07 12:20:46,998] - Free IFC terms: 347
+[2025-08-07 12:20:46,998] - Non-zero IFC terms: 197
+[2025-08-07 12:20:53,981] Writing third-order force constants into file.
+[2025-08-07 12:20:53,981] Force constant fitting finished, time cost: 0:00:10.146774.
+[2025-08-07 12:20:53,982] Finalize Pheasy, total time cost: 0:00:11.080681.
